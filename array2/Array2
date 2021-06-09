@@ -1,0 +1,24 @@
+public class Array1 {
+    public static void main(String[] args){
+        int[] a;
+        a=new int[10];
+        a[1]=1;
+        a[0]=0;
+        a[2]=2;
+        a[3]=3;
+        a[4]=4;
+        a[5]=5;
+        a[6]=6;
+        a[7]=7;
+        a[8]=8;
+        a[9]=9;
+        for(int i=0; i<a.length; i++)
+            System.out.println("The collection of array is :" +i +"=" +a[i]);
+
+        String[] Name =new String[]{"F","A","Z","A"};
+                for(int i=0;i<Name.length; i++)
+                    System.out.println("The collection of string is :" +i+"="+Name[i]);
+
+    }
+
+}
